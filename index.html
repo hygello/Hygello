@@ -42,10 +42,45 @@
     .founder-mark{width:42px;height:42px;margin:0 auto 13px;display:grid;place-items:center;border-radius:14px;background:var(--navy);color:var(--yellow);font-size:14px;font-weight:800}
     .founder-card h3{font-size:13px;line-height:1.45;margin:0;color:var(--navy);overflow-wrap:anywhere}
     .founder-note{max-width:820px;margin:26px auto 0;padding:20px 22px;border-left:3px solid var(--orange);border-radius:0 14px 14px 0;background:#f7f9ff;color:#617096;font-size:13px;line-height:1.8}
+    .enquiry-form{max-width:760px;margin:38px auto 0;padding:28px;border:1px solid rgba(11,26,77,.1);border-radius:24px;background:#fff;box-shadow:0 18px 48px rgba(14,37,92,.08);text-align:left}
+    .enquiry-form h3{font-size:21px;color:var(--navy);margin:0 0 7px}
+    .enquiry-form .form-intro{font-size:13px;color:#7180a0;line-height:1.65;margin:0 0 22px}
+    .enquiry-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+    .enquiry-field{display:flex;flex-direction:column;gap:7px}
+    .enquiry-field.full{grid-column:1/-1}
+    .enquiry-field label{font-size:12px;font-weight:800;color:var(--navy)}
+    .enquiry-field input,.enquiry-field select,.enquiry-field textarea{width:100%;border:1px solid #dce3f1;border-radius:11px;padding:13px 14px;background:#fbfcff;color:var(--navy);font:inherit;font-size:14px;outline:none}
+    .enquiry-field input:focus,.enquiry-field select:focus,.enquiry-field textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(47,95,224,.1)}
+    .enquiry-field textarea{min-height:100px;resize:vertical}
+    .enquiry-submit{margin-top:18px;border:0;border-radius:12px;background:var(--navy);color:#fff;font:inherit;font-weight:800;padding:15px 22px;cursor:pointer;transition:transform .2s,background .2s}
+    .enquiry-submit:hover{background:var(--blue);transform:translateY(-2px)}
+    .enquiry-privacy{font-size:11px;color:#8792aa;line-height:1.6;margin:12px 0 0}
+    .portfolio-section{padding:86px 0;background:var(--pale)}
+    .portfolio-head{max-width:720px;margin:0 auto 30px;text-align:center}
+    .portfolio-head h2{font-size:clamp(32px,4vw,48px);letter-spacing:-1.8px;line-height:1.12;color:var(--navy);margin:0}
+    .portfolio-head p{color:#667493;font-size:14px;line-height:1.8;margin:14px auto 0}
+    .portfolio-honesty{max-width:900px;margin:auto;padding:28px;border:1px dashed rgba(11,26,77,.25);border-radius:20px;background:#fff;text-align:center}
+    .portfolio-honesty .portfolio-icon{width:48px;height:48px;border-radius:15px;background:#fff2e8;color:var(--orange);display:grid;place-items:center;margin:0 auto 13px;font-size:22px}
+    .portfolio-honesty h3{font-size:18px;color:var(--navy);margin:0 0 8px}
+    .portfolio-honesty p{font-size:13px;line-height:1.8;color:#7180a0;max-width:650px;margin:0 auto}
+    .portfolio-proof{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:900px;margin:16px auto 0}
+    .portfolio-proof div{padding:16px;border-radius:14px;background:#fff;color:#667493;font-size:12px;line-height:1.65}
+    .faq-section{padding:88px 0;background:#fff}
+    .faq-head{max-width:700px;margin:0 auto 30px;text-align:center}
+    .faq-head h2{font-size:clamp(32px,4vw,46px);letter-spacing:-1.8px;color:var(--navy);margin:0}
+    .faq-head p{color:#7180a0;font-size:14px;line-height:1.7}
+    .faq-list{max-width:850px;margin:auto;display:grid;gap:10px}
+    .faq-list details{border:1px solid rgba(11,26,77,.1);border-radius:14px;padding:0 19px;background:#fff}
+    .faq-list summary{list-style:none;cursor:pointer;padding:18px 28px 18px 0;font-weight:800;font-size:14px;color:var(--navy);position:relative}
+    .faq-list summary::-webkit-details-marker{display:none}
+    .faq-list summary:after{content:"+";position:absolute;right:0;top:14px;font-size:22px;color:var(--orange)}
+    .faq-list details[open] summary:after{content:"−"}
+    .faq-list details p{font-size:13px;line-height:1.8;color:#7180a0;margin:0;padding:0 0 18px}
     .contact-section{position:relative;overflow:hidden;background:#fff;padding:116px 0 74px;text-align:center}.wave-top{position:absolute;top:-1px;left:0;width:100%;height:82px}.contact-inner{position:relative;z-index:1;max-width:790px;margin:auto}.contact-section .kicker{margin-top:10px}.contact-section h2{font-size:clamp(36px,5vw,58px);letter-spacing:-2.5px;line-height:1.1;margin:0 0 16px}.contact-section p{color:#657395;line-height:1.8;font-size:15px;margin:0 auto 32px;max-width:540px}.phone-actions{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin-bottom:25px}.phone-btn{min-width:245px;display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--orange);color:var(--navy-deep);border-radius:18px;padding:18px 24px;font-weight:800;font-size:17px;box-shadow:0 12px 28px rgba(255,122,26,.18);transition:transform .2s}.phone-btn:hover{transform:translateY(-3px)}.phone-btn span{font-size:12px;display:block;text-align:left;font-weight:700;opacity:.72}.website-link{display:inline-block;margin-top:6px;color:var(--blue);font-weight:800;font-size:14px;border-bottom:1px solid rgba(47,95,224,.3);padding-bottom:3px}.website-link .website-arrow{display:inline-block;margin-left:7px;color:#000!important;background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;border-radius:0!important;font-family:Arial,sans-serif;font-size:20px;line-height:1;vertical-align:-1px;font-weight:700;font-variant-emoji:text}
     footer{background:var(--navy-deep);color:#fff;padding:34px 0 28px}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:24px}.footer-brand img{width:172px}.footer-brand p{margin:11px 0 0;color:#aebbe8;font-size:12px;letter-spacing:.4px}.footer-note{font-size:13px;color:#c4d0f6;text-align:right}.footer-note strong{color:var(--yellow)}.copyright{border-top:1px solid rgba(255,255,255,.12);margin-top:27px;padding-top:20px;color:#8e9bc4;font-size:11px;text-align:center}
     .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}.reveal.is-visible{opacity:1;transform:translateY(0)}
     @media(max-width:1000px){.hero-inner{grid-template-columns:1fr .8fr;gap:8px}.hero-art{min-height:400px}.service-grid{grid-template-columns:repeat(3,1fr)}.plans-panel{padding:54px 42px}.tag-one{left:-10%}.tag-two{right:-9%}}
+    @media(max-width:760px){.enquiry-form{padding:21px 17px;margin-top:28px}.enquiry-grid{grid-template-columns:1fr;gap:13px}.enquiry-field.full{grid-column:auto}.portfolio-section,.faq-section{padding:68px 0}.portfolio-proof{grid-template-columns:1fr}.faq-list summary{font-size:13px}}
     @media(max-width:760px){.wrap{width:min(100% - 38px,var(--max))}.nav{min-height:82px}.brand img{width:164px}.nav-links{display:none}.hero{min-height:100svh;height:100svh;max-height:900px;padding:86px 0 34px;align-items:center}.hero-inner{display:block;width:100%}.hero-copy{padding:0;max-width:620px}.eyebrow{display:none;font-size:10px;letter-spacing:1.7px;margin-bottom:16px}h1{font-size:clamp(43px,9vw,64px);letter-spacing:-2.7px;max-width:570px;margin-bottom:16px}.hero-copy p{font-size:14px;line-height:1.7;margin-bottom:22px;max-width:520px}.hero-actions{gap:10px}.primary-btn{padding:15px 22px;font-size:14px}.outline-btn{padding:14px 20px;font-size:13px}.hero-art{display:none}.vacuum{width:145px;bottom:35px}.section{padding:75px 0}.section-head{margin-bottom:34px}.service-grid{grid-template-columns:repeat(2,1fr);gap:12px}.service-card{min-height:160px;padding:18px;border-radius:18px}.service-no{margin-bottom:18px}.service-card h3{font-size:13px}.service-drop{right:15px;top:16px}.plans-section{padding:0 0 70px}.plans-panel{border-radius:25px;padding:38px 23px}.plan-grid{grid-template-columns:1fr;gap:11px}.plan-card{min-height:auto;padding:19px 20px}.plan-card .plan-symbol{margin-bottom:12px}.contact-section{padding:94px 0 60px}.wave-top{height:56px}.contact-section h2{font-size:40px;letter-spacing:-1.8px}.phone-actions{display:grid;grid-template-columns:1fr;gap:11px}.phone-btn{width:100%;min-width:0}.footer-row{flex-direction:column;text-align:center}.footer-brand img{margin:auto}.footer-note{text-align:center}.copyright{margin-top:22px}.reveal{opacity:1;transform:none;transition:none}}
     @media(max-width:430px){.wrap{width:calc(100% - 36px)}.nav{min-height:74px}.brand img{width:150px}.call-btn{padding:11px 17px;font-size:12px}.hero{padding-top:78px;min-height:100svh;height:100svh}.hero-copy{max-width:100%}.eyebrow{font-size:9px;letter-spacing:1.4px;margin-bottom:14px}h1{font-size:clamp(39px,10.3vw,47px);line-height:1.06;letter-spacing:-2.2px;margin-bottom:15px}.hero-copy p{font-size:13px;line-height:1.65;margin-bottom:21px}.hero-actions .outline-btn{display:none}.primary-btn{width:auto;min-width:168px;padding:14px 20px}.service-grid{gap:10px}.service-card{padding:16px;min-height:153px}.service-card h3{font-size:12px}.service-no{width:33px;height:33px;margin-bottom:16px}.section-head h2{font-size:32px}.plans-heading h2{font-size:31px}.contact-section h2{font-size:36px}.phone-btn{font-size:15px;padding:17px 18px}.footer-brand img{width:150px}}
     @media(max-width:390px){.wrap{width:calc(100% - 32px)}.hero{padding-top:74px}.eyebrow{font-size:8px;letter-spacing:1.2px}h1{font-size:39px;letter-spacing:-2.1px}.hero-copy p{font-size:12px}.primary-btn{font-size:13px}.service-card{min-height:150px}.service-card h3{font-size:11.5px}}
@@ -60,7 +95,7 @@
   <header class="site-header" id="top">
     <div class="wrap nav">
       <a class="brand" href="#top" aria-label="Hygello home"><span data-logo data-logo-class="logo-image" data-alt="Hygello logo"></span></a>
-      <nav class="nav-links" aria-label="Main navigation"><a href="#services">Services</a><a href="#plans">Plans</a><a href="#founders">Our founders</a><a href="#contact">Contact</a></nav>
+      <nav class="nav-links" aria-label="Main navigation"><a href="#services">Services</a><a href="#plans">Plans</a><a href="#founders">Our founders</a><a href="#portfolio">Our work</a><a href="#faq">FAQs</a><a href="#contact">Get a quote</a></nav>
       <a class="call-btn" href="tel:09030543774" aria-label="Call Hygello on 0903 054 3774">Call us</a>
     </div>
   </header>
@@ -148,6 +183,25 @@
       </div>
     </section>
 
+    <section class="portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="wrap">
+        <div class="portfolio-head reveal">
+          <div class="kicker">Real work. Real results.</div>
+          <h2 id="portfolio-title">A closer look at our work</h2>
+          <p>We want this gallery to show genuine Hygello jobs—not stock photos or made-up before-and-after results.</p>
+        </div>
+        <div class="portfolio-honesty reveal">
+          <div class="portfolio-icon" aria-hidden="true">✦</div>
+          <h3>Our verified project gallery is being prepared</h3>
+          <p>We’re making room here for real project photos, including before-and-after views, the type of space cleaned and the work carried out. No customer property or results will be shown without permission.</p>
+        </div>
+        <div class="portfolio-proof">
+          <div><strong>Before &amp; after</strong><br>Genuine, matched photos from the same area and angle.</div>
+          <div><strong>Project details</strong><br>Service provided, space type and work completed.</div>
+        </div>
+      </div>
+    </section>
+
     <section class="founders-section" id="founders" aria-labelledby="founders-title">
       <div class="wrap">
         <div class="founders-intro reveal">
@@ -176,10 +230,41 @@
       </div>
     </section>
 
+    <section class="faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="faq-head reveal"><div class="kicker">Good to know</div><h2 id="faq-title">Frequently asked questions</h2><p>Helpful answers before you request a cleaning quote.</p></div>
+        <div class="faq-list">
+          <details><summary>How much does a cleaning service cost?</summary><p>Pricing depends on the type and size of the space, its current condition, the service required and how often you need cleaning. Send an enquiry with these details and Hygello will discuss a suitable quote with you.</p></details>
+          <details><summary>What areas does Hygello serve?</summary><p>Service availability depends on your location and the job. Share your area or full service address in the enquiry form and the team will confirm whether they can attend.</p></details>
+          <details><summary>Do you bring your own cleaning equipment and products?</summary><p>Equipment and cleaning products are selected according to the service and site requirements. Tell us what needs cleaning and we’ll confirm what will be provided as part of your quote.</p></details>
+          <details><summary>How do I book a cleaning appointment?</summary><p>Complete the enquiry form with your contact details, location, preferred service and date. It opens WhatsApp with your information ready to send. Your booking is not confirmed until Hygello replies and agrees the schedule.</p></details>
+          <details><summary>How far in advance should I schedule?</summary><p>Share your preferred date and time as early as possible. Availability is confirmed individually by the Hygello team; submitting an enquiry does not reserve a time slot.</p></details>
+          <details><summary>What payment methods do you accept?</summary><p>Payment arrangements are confirmed directly with you when the service and quote are agreed. Please verify the payment details with Hygello before making a transfer.</p></details>
+          <details><summary>Can I request a one-time or recurring cleaning service?</summary><p>Yes. You can enquire about a one-time clean or recurring daily, weekly or monthly arrangements. The team will confirm the options available for your location and needs.</p></details>
+          <details><summary>Can I request a quote before booking?</summary><p>Absolutely. Send the details of your space and the cleaning required. Hygello can discuss the scope and quote with you before you decide whether to schedule.</p></details>
+        </div>
+      </div>
+    </section>
+
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
       <svg class="wave-top" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H1440V35C1190 95 1010 105 755 65C480 20 260 20 0 78V0Z" fill="#081338"/></svg>
       <div class="wrap contact-inner">
         <div class="kicker">Let's make it spotless</div><h2 id="contact-title">Ready for a cleaner space?</h2><p>Tell us what needs cleaning and when you need us. We’ll help you find the right service and schedule.</p>
+        <form class="enquiry-form" id="enquiryForm">
+          <h3>Request a cleaning quote</h3>
+          <p class="form-intro">Share a few details and we’ll prepare a WhatsApp enquiry for the Hygello team. Sending this form does not confirm a booking.</p>
+          <div class="enquiry-grid">
+            <div class="enquiry-field"><label for="enqName">Your name *</label><input id="enqName" name="name" autocomplete="name" required placeholder="Full name"></div>
+            <div class="enquiry-field"><label for="enqPhone">Phone / WhatsApp number *</label><input id="enqPhone" name="phone" type="tel" autocomplete="tel" required placeholder="e.g. 080..."></div>
+            <div class="enquiry-field"><label for="enqLocation">Cleaning location *</label><input id="enqLocation" name="location" autocomplete="street-address" required placeholder="Area, city or address"></div>
+            <div class="enquiry-field"><label for="enqService">Service required *</label><select id="enqService" name="service" required><option value="">Choose a service</option><option>Residential house cleaning</option><option>Office cleaning &amp; maintenance</option><option>Post-construction cleaning</option><option>Move-in / move-out cleaning</option><option>Commercial building cleaning</option><option>Floor cleaning / scrubbing / polishing</option><option>Carpet &amp; upholstery cleaning</option><option>Window &amp; glass cleaning</option><option>Toilet &amp; restroom sanitation</option><option>Waste collection &amp; disposal</option><option>Disinfection &amp; fumigation</option><option>Routine janitorial services</option><option>Not sure yet — advise me</option></select></div>
+            <div class="enquiry-field"><label for="enqSpace">Type of property</label><select id="enqSpace" name="space"><option value="">Select if applicable</option><option>Apartment / flat</option><option>House</option><option>Office</option><option>Shop / commercial space</option><option>Factory / industrial space</option><option>Other</option></select></div>
+            <div class="enquiry-field"><label for="enqDate">Preferred date</label><input id="enqDate" name="date" type="date"></div>
+            <div class="enquiry-field full"><label for="enqDetails">Additional details</label><textarea id="enqDetails" name="details" placeholder="Approximate size, number of rooms, current condition, preferred time, or anything else we should know."></textarea></div>
+          </div>
+          <button class="enquiry-submit" type="submit">Continue to WhatsApp <span aria-hidden="true">→</span></button>
+          <p class="enquiry-privacy">Your details are placed into a WhatsApp message to Hygello. This website does not store or submit the form to a database.</p>
+        </form>
         <div class="phone-actions">
           <a class="phone-btn" href="tel:09030543774" aria-label="Call 0903 054 3774"><span aria-hidden="true">☎</span><span>Call Hygello<br><strong>0903 054 3774</strong></span></a>
         </div>
@@ -218,6 +303,28 @@
       card.target = '_blank';
       card.rel = 'noopener noreferrer';
       card.setAttribute('aria-label', 'Request a WhatsApp quote for ' + title);
+    });
+
+    // Turn the structured quote form into a pre-filled WhatsApp enquiry.
+    const enquiryForm = document.getElementById('enquiryForm');
+    enquiryForm?.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!enquiryForm.reportValidity()) return;
+      const data = new FormData(enquiryForm);
+      const fields = [
+        'Hello Hygello, I would like to request a cleaning quote.',
+        '',
+        'Name: ' + data.get('name'),
+        'Phone / WhatsApp: ' + data.get('phone'),
+        'Location: ' + data.get('location'),
+        'Service: ' + data.get('service'),
+        'Property type: ' + (data.get('space') || 'Not specified'),
+        'Preferred date: ' + (data.get('date') || 'Flexible / to be discussed'),
+        'Additional details: ' + (data.get('details') || 'None provided'),
+        '',
+        'Please let me know the quote and available schedule. Thank you.'
+      ];
+      window.open('https://wa.me/' + whatsappNumber + '?text=' + encodeURIComponent(fields.join('\n')), '_blank', 'noopener,noreferrer');
     });
 
     // Keep the copyright year current without adding any framework dependency.
